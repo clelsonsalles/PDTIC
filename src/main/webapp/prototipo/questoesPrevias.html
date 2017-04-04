@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantamento das Necessidades de Informação do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work -->
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://prepbootstrap.com/Content/js/gridData.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Roteiro para Levantamento das Necessidades de Informação do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li ><a href="identificacao.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li><a href="index.html"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li class="active"><a href="questoesPrevias.html"><i class="glyphicon glyphicon-screenshot"></i> Questões Prévias</a></li>
+                    <li><a href="projetosTransversais.html"><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li><a href="projetosEspecificos.html"><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li><a href="servicosTIC.html"><i class="glyphicon glyphicon-th"></i> Sistemas e Serviços TIC</a></li>
+                    <li><a href="novosProjetos.html"><i class="glyphicon glyphicon-cog"></i> Novos Projetos</a></li>
+                    <li><a href="forms.html"><i class="fa fa-list-ol"></i> Forms</a></li>
+                    <li><a href="typography.html"><i class="fa fa-font"></i> Typography</a></li>
+                    <li><a href="bootstrap-elements.html"><i class="fa fa-list-ul"></i> Bootstrap Elements</a></li>
+                    <li><a href="bootstrap-grid.html"><i class="fa fa-table"></i> Bootstrap Grid</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown messages-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <span class="badge">2</span> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">2 New Messages</li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" style="padding-top: 0px">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 15px">
+						<i class="glyphicon glyphicon-screenshot" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-8">
+						<h1>Questões Prévias</h1>
+						<h4></h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+			
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" style="color: white; text-decoration: none">
+							   Como você classificaria o nível médio de conhecimento dos objetivos (diretrizes) estratégicas do CNPq?
+					  </a>
+					</h4>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						
+						<div class="col-lg-12" style="padding-left: 40px">
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1">
+								Alto - Temos ciência e alinhamos nossas ações e decisões para o cumprimento do objetivo estratégico.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+								Médio - Temos ciência, mas não é o compromisso maior para definirmos ações e decisões.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+								Não temos ciência.		
+						</div>
+					</div>
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" style="color: white; text-decoration: none">
+							   Como você classificaria o nível médio de conhecimento dos objetivos (diretrizes) Estratégia de Governança Digital?
+					  </a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						
+						<div class="col-lg-12" style="padding-left: 40px">
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1">
+								Alto - Temos ciência e alinhamos nossas ações e decisões para o cumprimento do objetivo estratégico.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+								Médio - Temos ciência, mas não é o compromisso maior para definirmos ações e decisões.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+								Não temos ciência.		
+						</div>
+					</div>
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" style="color: white; text-decoration: none">
+							   Como você classificaria o nível médio de conhecimento dos objetivos (diretrizes) Estratégia prevista na PPA, LDO, LOA e ENCTI vigentes?
+					  </a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						
+						<div class="col-lg-12" style="padding-left: 40px">
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1">
+								Alto - Temos ciência e alinhamos nossas ações e decisões para o cumprimento do objetivo estratégico.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+								Médio - Temos ciência, mas não é o compromisso maior para definirmos ações e decisões.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+								Não temos ciência.		
+						</div>
+					</div>
+				  </div>
+				</div>
+
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4" style="color: white; text-decoration: none">
+							   Você realizou um prévio alinhamento de sua equipe com relação a conceitos, definições e parâmetros importantes (ex: o que é TIC, PDTIC, necessidades gerenciais x necessidades operacionais, documentos prévios - SWOT, PDTIC2014-2016, EGD, mapa estratégico do CNPq, etc.)  para estabelecer as necessidades ao PDTIC. 
+					  </a>
+					</h4>
+				  </div>
+				  <div id="collapse4" class="panel-collapse collapse">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						
+						<div class="col-lg-12" style="padding-left: 40px">
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option1">
+								Sim com grande adesão e interesse por parte da equipe.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+								Sim, mas com resistência e pouco interesse por parte da equipe.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+								Não, por falta de tempo diante aos prazos e necessidades do setor.		
+							</br>
+							  <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
+								Não, por não ser necessário o prévio alinhamento junto a equipe.		
+						</div>
+					</div>
+				  </div>
+				</div>
+
+			</div>
+
+		</div>
+
+</body>
+</html>

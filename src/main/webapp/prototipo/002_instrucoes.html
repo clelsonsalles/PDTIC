@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantamento das Necessidades de Informação de TIC do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work 
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://prepbootstrap.com/Content/js/gridData.js"></script>
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Levantamento das Necessidades de Informação de TIC do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+		                <a class="navbar-nav" target="_blank" 
+		                	href="http://sisp.gov.br/guiapdtic/wiki/download/file/Guia_de_PDTIC_do_SISP_v2.0.pdf">
+		                Processo 2.7 do Guia de PDTIC do SISP
+						</a>
+					</li>
+                    <li><a href="001_inicio.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li class="active"><a href="002_instrucoes.html"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li class="disabled"><a href="002_instrucoes.html"  class="disabled"><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li class="disabled"><a href="002_instrucoes.html"  class="disabled"><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li class="disabled"><a href="002_instrucoes.html" class="disabled" ><i class="glyphicon glyphicon-cog"></i> Outras Necessidades</a></li>
+                    <li class="disabled"><a href="002_instrucoes.html"  class="disabled"><i class="glyphicon glyphicon-check"></i> Finalização</a></li>
+                    <li><a href="glossario.html"><i class="glyphicon glyphicon-list-alt"></i> Glossário</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown messages-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <span class="badge">2</span> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">2 New Messages</li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 25px">
+						<i class="glyphicon glyphicon-flag" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-8">
+						<h1>Instruções </h1>
+						<h4>Para preenchimento do Levantamento das Necessidades de Informação de TIC do CNPq:</h4>
+                    </div>
+					<div class="col-lg-12">
+						<div class="alert alert-success alert-dismissable">
+							<button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+							Instrumento de Levantamento das Necessidades de Informação de TIC do CNPq para o PDTIC 2017-2020
+
+
+							<br />
+							Leia com atenção estas instruções!!!
+						</div>
+					</div>
+                </div>
+                <div class="col-lg-12">
+                
+
+
+O presente formulário tem o objetivo de realizar o levantamento de necessidade de informação pelos variados setores do CNPq para a elaboração do Plano Diretor de Tecnologia de Informações e Comunicação (PDTIC). Para tal, o método adotado tem por base o acesso restrito aos gestores do CNPq (coordenadores e chefes de serviço) que, devidamente orientados e cientes da atividade, realizarão reuniões com suas equipes (todos os colaboradores), conduzirão o alinhamento conceitual, levantamento de informações e consolidação dos dados, devidamente relatados nas respostas deste questionário.
+<br />
+Enfatiza-se que parâmetros conceituais são de extrema importância para alinhar a demanda e a resposta final para a resolução deste questionário. Este será o grande momento de contribuição de cada área do CNPq para a participação a elaboração do Plano Diretor de Tecnologia de Informação e Comunicação (PDTIC 2017-2020). O PDTIC é a principal referência que norteará os trabalhos e prioridades das áreas responsáveis a criação, desenvolvimento e entrega de produtos e serviços que poderão incrementar a eficiência e eficácia de informação e informática no CNPq. Salienta-se: este é o momento de participar na proposta gerencial dos principais instrumentos de nosso trabalho no dia-a-dia!
+<br />
+<br />
+
+Este formulário divide-se em 07 seções:
+<br />
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2 ">
+1. Identificação do gestor e setor.
+</div>
+<div class="col-lg-10 ">
+Após a realização do cadastro do gestor, este terá um login e senha para acessar o formulário. Salienta-se que apesar de ser um produto de levantamento de necessidades de sua equipe, o gestor é o responsável pelo levantamento de necessidades em TIC, consolidação das respostas, preenchimento do formulário e encaminhamento do formulário aos responsáveis pela elaboração do PDTIC 2017-2220.
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+2. Instruções para o preenchimento
+</div>
+<div class="col-lg-10">
+Oferece informações sobre este Levantamento de Informações
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+3. Projetos transversais do CNPq.
+</div>
+<div class="col-lg-10">
+Seção para o registro de necessidades gerenciais correlatas aos projetos transversais do CNPq. 
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+4. Projetos específicos do CNPq.
+</div>
+<div class="col-lg-10">
+Seção para o registro de necessidades gerenciais correlatas aos projetos específicos do CNPq. 
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+5. Novas Necessidades.
+</div>
+<div class="col-lg-10">
+Seção para sugerir necessidades que não estão alinhadas aos projetos transversais e específicos, além daqueles relacionados diretamente aos sistemas, ferramentas e serviços em TIC oferecidos pelo CNPq.
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+6. Finalização
+</div>
+<div class="col-lg-10">
+Espaço livre para críticas, sugestões e considerações para auxiliar o processo de levantamento e seleção de necessidades de TIC ao CNPq.
+<br />
+</div>
+</div>
+
+<div class="col-lg-12 panel panel-default">
+<div class="col-lg-2">
+7. Glossário
+</div>
+<div class="col-lg-10">
+Contém termos e expressões que devem ser previamente alinhadas junto a equipe sob responsabilidade do gestor.
+</div>
+</div>
+
+
+
+É importante que o gestor conduza sua equipe a pensar o levantamento de necessidade de informação dentro de uma esfera gerencial. O PDTIC é um documento produzido a partir do desdobramento dos objetivos estratégicos governamentais (PPA, ENCTI,etc), institucionais (CNPq) e específicos da área de TIC (Ex: Estratégica de Governança Digital - EGD). Depreende-se deste fato que o PDTIC será o norteador de projetos e ações para a inovação, incremento e manutenção dos sistemas de informação. 
+<br />
+<br />
+
+Exemplificando o nível de necessidades a serem levantadas ao PDTIC 2017-2020, simula-se um caso a seguir. 
+<br />
+
+Caso: A equipe levantou as necessidades alinhada ao projeto transversal do CNPq descrito como 'Avaliar e propor a reestruturação do Modelo de Fomento, contemplando a inovação, transversalidade e a transdisciplinaridade na promoção da pesquisa e desenvolvimento tecnológico.'
+<br />
+<br />
+
+Necessidades levantadas pela equipe quanto ao configurador de encomendas na Pataforma Integrada Calos Chagas (PICC):
+<br />
+
+1. Consertar os  'bugs' e falhas na PICC na configuração de encomendas.
+<br />
+2. As instituições envolvidas na encomenda não podem ser citadas pois não aparecem no campo de seleção. 
+<br />
+3. Não conseguimos encaminhar documentos em word e excel para o configurador de encomendas. 
+<br />
+4. É complicado selecionar fonte e processo interno (PI) para citar a origem dos recursos no configurador de encomendas.
+<br />
+5. Proposta de Novas Necessidades de Informação (adquirir, processar, armazenar e disseminar)
+<br />
+<br />
+
+O gestor responsável pela equipe e pelo preenchimento deste questionário deverá realizar algumas questões de alinhamento para poder adequar as propostas realizadas por seus colaboradores.
+<br />
+
+Questão 01- As propostas são necessidades (Eu preciso de...)? 
+<br />
+
+Note que no exemplo, a maior parte das sentenças são diagnósticos de problemas, não descrição de necessidades. Desta forma o primeiro passo é adequá-las:
+<br />
+
+
+1. Consertar os  'bugs' e falhas na PICC na configuração de encomendas.
+<br />
+2. Disponibilizar um conjunto mais completo de instituições de C,T&I e outras que potencialmente podem estar envolvidas em uma encomenda fomentada pelo CNPq.
+<br />
+3. Permitir maior variabilidade de tipos de documentos (office, pdf, odb, txt, etc) que podem ser anexados durante o processo de configuração da encomenda.
+<br />
+4. Facilitar o cadastro ou a seleção de fontes e PI no configurador de encomenda da PICC
+<br />
+<br />
+
+Questão 02- As necessidades levantadas são gerenciais? 
+<br />
+
+Relembra-se que a PDTIC tem caráter norteador ao desenvolvimento de projetos e gestão  em TIC nos próximos 3 anos no CNPq. O nível operacional diz respeito a utilização direta da informação e das tecnologias correlatas. O nível gerencial diz respeito a gestão (O que? Como? Quando? Onde? Para quê? Para quem?) de informação e das tecnologias correlatas. Do exemplo dado, nota-se que as necessidades levantadas dizem respeito ao uso de informações ou da tecnologia (neste caso a PICC). São portanto, de nível operacional, e não são o alvo de necessidades do PDTIC. Como aproveitar tais necessidades para propor necessidades gerenciais?  Para facilitar a conexão dos conceitos, deriva-se outro questionamento: como as necessidades levantadas - mesmo que operacionais - podem ser convertidas em um projeto (neste caso de TIC)? Com tais questionamentos como referência pode-se concluir uma necessidade gerencial como:
+<br />
+
+"Disponibilizar um gerenciador de encomendas ao CNPq (O que) com estabilidade funcional, completude de dados e informações, liberdade de inclusão de dados para permitir as variáveis aceitáveis dentro da legalidade e com pleno acesso a informações essenciais dos partícipes (como),  permitindo o lançamento desta ação pelos setores responsáveis da casa (onde) de forma rápida e desburocratizada (quando) atendendo com agilidade a comunidade científica e os parceiros envolvidos (quem)"
+<br />
+
+Neste caso o gestor deve ter a sensibilidade para utilizar as informações de necessidades operacionais levantadas pelos colaboradores de sua equipe. Sugere-se, inclusive, que após a elaboração da 'Necessidade Gerencial' utilize-se as necessidades operacionais como justificativas para a consideração e prioridade da dita necessidade gerencial.
+<br />
+<br />
+
+Ex: 
+<br />
+Título: Configurador de Encomendas do CNPq.
+<br />
+
+Necessidade Gerencial: "Disponibilizar um gerenciador de encomendas ao CNPq (O que) com estabilidade funcional, completude de dados e informações, liberdade de inclusão de dados para permitir as variáveis aceitáveis dentro da legalidade e com pleno acesso a informações essenciais dos partícipes (como),  permitindo o lançamento desta ação pelos setores responsáveis da casa (onde) de forma rápida e desburocratizada (quando) atendendo com agilidade a comunidade científica e os parceiros envolvidos (quem)"
+<br />
+
+Justificativa - Em relação aos processo relacionadas a implementação de encomendas pelo CNPq, a constantes problemas correlatas a tecnologia de informação e comunicação, as quais cita-se como exemplos:
+<br />
+
+1. Consertar os  'bugs' e falhas na PICC na configuração de encomendas.
+<br />
+2. Disponibilizar um conjunto mais completo de instituições de C,T&I e outras que potencialmente podem estar envolvidas em uma encomenda fomentada pelo CNPq.
+<br />
+3. Permitir maior variabilidade de tipos de documentos (office, pdf, odb, txt, etc) que podem ser anexados durante o processo de configuração da encomenda.
+<br />
+4. Facilitar o cadastro ou a seleção de fontes e PI no configurador de encomenda da PICC
+<br />
+<br />
+
+Salienta-se que outros argumentos podem e devem ser utilizados para justificar a necessidade como prioritária, mas não esqueça de considerar sempre a opinião dos integrantes de sua equipe e expressa-las dentro de suas propostas de necessidade gerencial.
+<br />
+<br />
+
+Questão 03 - A necessidade gerencial levantada alinha-se com o projeto desdobrado a partir da estratégia do CNPq (projetos transversais ou específicos)? Alinhas-se com uma necessidade correlata a um serviço já prestado pela TI/CNPq? É um novo projeto?
+<br />
+
+Nota-se que a resposta levará a resposta ao lugar correto deste questionário. Do exemplo, a necessidade gerencial levantada pouco contribui de forma direta ao projeto transversal do CNPq descrito como '
+<br />
+
+"Avaliar e propor a reestruturação do Modelo de Fomento, contemplando a inovação, transversalidade e a transdisciplinaridade na promoção da pesquisa e desenvolvimento tecnológico.'
+<br />
+
+Correlacionando-se melhor a aperfeiçoamento ou manutenção da Plataforma Integrada Carlos Chagas (PICC). Dessa forma a necessidade levantada neste caso será melhor posicionada na seção correlata a Sistemas, serviços e ferramentas já existentes na TIC/CNPq; e não na seção de Projetos Transversais do CNPq.
+<br />
+<br />
+
+Como sugestão ao gestor, o trabalho de levantamento de necessidades, consolidação de informações e preenchimento deste formulário pode ser descrito nas seguintes etapas:
+<br />
+
+1. Ler as instruções deste trabalho e compreender os conceitos básicos (TIC, PDTIC, necessidade, planejamento gerencial x operacional (...)).
+<br />
+2. 1ª Reunião da equipe com a pauta: (a) Contextualizar a atividade conversando sobre a PDTIC2017-2020 e sua importância e impactos ao trabalho e missão do CNPq. (b) Alinhado conceitos e definições (TIC, PDTIC, necessidade, planejamento gerencial x operacional (...)). (c) Repassar o caso visto nesta orientação, induzindo a forma do colaborador de propor necessidades. (d) Repassar um esboço das seções deste formulário e as categorias de necessidades a serem levantadas (correlacionadas aos projetos transversais do CNPq, correlacionadas aos projetos específicos do CNPq, correlacionadas aos sistemas e serviços já existentes na TIC/CNPq e novas necessidades que podem ser consideradas a novos projetos da TIC/CNPq).
+<br />
+3. 2ª Reunião da equipe com a pauta: expor e reunir as necessidades levantadas.
+<br />
+4. Consolidação dos dados e informações realizadas pelo gestor e assessores.
+<br />
+5. Preenchimento e encaminhamento deste formulário até o dia xx/xx/xxxx.
+<br />
+<br />
+
+Os campos de preenchimento de levantamento de necessidades não exigem preenchimento (não são obrigatórios), mas é necessário enfatizar que este será o grande momento de participação do CNPq para o levantamento de necessidades em TIC. Lembre-se, seu nome é aquele registrado como representante do setor.
+<br />
+<br />
+
+Contamos com sua colaboração e esforço.
+<br />
+<br />
+<br />
+<br />
+
+Atenciosamente
+<br />
+<br />
+<br />
+
+Equipe de Elaboração do PDTIC2017-2020.
+
+
+
+
+
+
+
+                
+                </div>
+                
+                
+                
+            </div>
+			
+			
+            <div class="row disabled visible-xs">
+                <div class="col-lg-3 disabled visible-xs">
+                    <div class="panel panel-default ">
+                        <div class="panel-body alert-warning">
+                            <div class="col-lg-4">
+                                <i class="glyphicon glyphicon-screenshot" style="font-size:4em;"></i>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <p class="alerts-heading">04</p>
+                            </div>
+							<div class="col-lg-12" >
+                                <p class="alerts-text">Questões Prévias</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" style="width: 45%"></div>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="panel panel-default ">
+                        <div class="panel-body alert-warning">
+                            <div class="col-lg-4">
+                                <i class="glyphicon glyphicon-fullscreen" style="font-size:4em;"></i>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <p class="alerts-heading">07</p>
+                            </div>
+							<div class="col-lg-12">
+                                <p class="alerts-text">Projetos Transversais</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" style="width: 25%"></div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="panel panel-default ">
+                        <div class="panel-body alert-warning">
+                            <div class="col-lg-4 text-right">
+                                <i class="glyphicon glyphicon-transfer" style="font-size:4em;"></i>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <p class="alerts-heading">27</p>
+                            </div>
+							<div class="col-lg-12">
+                                <p class="alerts-text">Projetos Específicos</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-warning" style="width: 55%"></div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <div class="panel panel-default ">
+                        <div class="panel-body alert-success">
+                            <div class="col-lg-4 text-right">
+                                <i class="glyphicon glyphicon-cog" style="font-size:4em;"></i>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <p class="alerts-heading">...</p>
+                            </div>
+							<div class="col-lg-12">
+                                <p class="alerts-text">Novas Necessidades</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-success" style="width: 100%"></div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="panel panel-default ">
+                        <div class="panel-body alert-warning">
+                            <div class="col-lg-4 text-right">
+                                <i class="glyphicon glyphicon-check" style="font-size:4em;"></i>
+                            </div>
+                            <div class="col-lg-8 text-right">
+                                <p class="alerts-heading">01</p>
+                            </div>
+							<div class="col-lg-12">
+                                <p class="alerts-text">Finalização</p>
+								<div class="progress progress-striped active">
+									<div class="progress-bar progress-bar-success" style="width: 0%"></div>
+								</div>
+							</div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+	<div>
+	    <div class="col-lg-12 text-right">
+	        <label>
+	            <input type="checkbox" id='idCheckCiencia'> Li e estou ciente das orientações realizadas nesta seção.</label>
+	    </div>            
+	</div>
+	<div class="row">
+	    <div class="col-lg-12 text-right ">
+		<a href="003_projetosTransversais.html" class="btn btn-info disabled" id='idBotaoIniciar' role="button">Iniciar Preenchimento</a>
+	    </div>
+	</div>
+
+
+        </div>
+    </div>
+    <!-- /#wrapper -->
+
+    <script type="text/javascript">
+	$( '#idCheckCiencia' ).click(function() {
+	  $( '#idBotaoIniciar' ).toggleClass( "disabled" );
+	});
+    </script>
+</body>
+</html>

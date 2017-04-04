@@ -1,0 +1,6 @@
+/target/
+src/main/java/br/com/xti/ouvidoria/model/*_.java
+.classpath
+.project
+.settings/
+.tern-project

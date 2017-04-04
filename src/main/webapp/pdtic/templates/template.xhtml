@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Levantamento das Necessidades de Informação de TIC do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="./font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/local.css" />
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+	<h:outputStylesheet name="default.css" library="css" />
+	<h:outputStylesheet name="cssLayout.css" library="css" />
+	<h:outputStylesheet name="estilo.css" library="css" />
+	<h:outputStylesheet name="estiloGoogle.css" library="css" />
+	<h:outputScript name="locale-primefaces.js" library="js" />
+	
+</h:head>
+
+<h:body>
+	<h:form id="formInfo">
+		<p:growl id="growl" />
+	</h:form>
+	
+	<p:ajaxStatus onstart="statusDialog.show();" onsuccess="statusDialog.hide();" />
+	
+	<p:dialog modal="true" widgetVar="statusDialog" header="Carregando" draggable="false" closable="false">
+		<p:graphicImage value="/img/carregando.gif" />
+	</p:dialog>
+	
+	
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Levantamento das Necessidades de Informação de TIC do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+		                <a class="navbar-nav" target="_blank" 
+		                	href="http://sisp.gov.br/guiapdtic/wiki/download/file/Guia_de_PDTIC_do_SISP_v2.0.pdf">
+		                Processo 2.7 do Guia de PDTIC do SISP
+						</a>
+					</li>
+                    <li  class="active"><a href="001_inicio.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li class="disabled"><a href="001_inicio.html" class="disabled"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li class="disabled"><a href="001_inicio.html" class="disabled" ><i class="glyphicon glyphicon-cog"></i> Novas Necessidades</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-check"></i> Finalização</a></li>
+                    <li class="disabled"><a href="glossario.html" class="disabled"><i class="glyphicon glyphicon-list-alt"></i> GLOSSÁRIO</a></li>
+                </ul>
+            </div>
+        </nav>
+
+       <div>
+			<ui:insert name="conteudo">
+			</ui:insert>
+		</div>
+	
+	</div>
+	
+</h:body>
+</html>

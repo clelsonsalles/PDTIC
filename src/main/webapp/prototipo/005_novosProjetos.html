@@ -1,0 +1,456 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantamento das Necessidades de Informação de TIC do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work 
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://prepbootstrap.com/Content/js/gridData.js"></script>
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Levantamento das Necessidades de Informação de TIC do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+		                <a class="navbar-nav" target="_blank" 
+		                	href="http://sisp.gov.br/guiapdtic/wiki/download/file/Guia_de_PDTIC_do_SISP_v2.0.pdf">
+		                Processo 2.7 do Guia de PDTIC do SISP
+						</a>
+					</li>
+                    <li><a href="001_inicio.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li><a href="002_instrucoes.html"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li><a href="003_projetosTransversais.html" ><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li><a href="004_projetosEspecificos.html" ><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li class="active"><a href="005_novosProjetos.html" ><i class="glyphicon glyphicon-cog"></i> Outras Necessidades</a></li>
+                    <li><a href="006_finalizacao.html" ><i class="glyphicon glyphicon-check"></i> Finalização</a></li>
+                    <li><a href="glossario.html"><i class="glyphicon glyphicon-list-alt"></i> Glossário</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown messages-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <span class="badge">2</span> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">2 New Messages</li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" style="padding-top: 0px">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 25px">
+						<i class="glyphicon glyphicon-cog" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-7" >
+		                <div class="col-lg-12">
+							<h1 style="font-size: 1.8em;">Outras Necessidades da Informação de TIC </h1>
+						</div>
+		                <div class="col-lg-12 text-bottom" style="top: 40px;position: absolute;">
+							<h4 style="font-size: 1em; padding: 0px">
+							Outras necessidades não correlatas a Projetos Transversais ou Específicos, mas que são inovadoras ou correlacionadas aos sistemas e serviços já ofertados pelo CNPq. 
+							</h4> 
+						</div>
+                    </div>
+
+	                <div class="col-lg-4">
+	                    <div class="panel panel-default ">
+	                        <div class="panel-body alert-warning">
+	                            <div class="col-lg-2" style="font-size:3em; padding: 10px 0 0 0">
+	                                <i class="glyphicon glyphicon glyphicon-link" ></i>
+	                            </div>
+								<div class="col-lg-10" style="padding: 0px">
+									<p class="alerts-text">Documentos de Referência</p>
+					                <div class="col-lg-12 " style="padding-left: 0px; ">
+										<a href="http://portal-intranet.cnpq.br/documents/1123862/1124301/Planejamento+Estrat%C3%A9gico+CNPq+2025+-+Plano+Operacional/79206635-6dd6-4226-af54-f8ff834075a2" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										Planejamento Estratégico CNPq
+										</a></br>
+										<a href="http://sisp.gov.br/egd/wiki/download/file/EGD" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										EGD
+										</a></br>
+										<a href="http://portal-intranet.cnpq.br/web/ti/documentos-de-referencia" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										Outras referências
+										</a>
+									</div>
+								</div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+
+               <div class="col-lg-12" style="padding-top: 5px">
+                  <div class="panel panel-default ">
+                      <div class="panel-body alert-warning">
+						<div class="col-lg-1">
+						    <i class="glyphicon glyphicon glyphicon-edit" style="font-size:3em;"></i>
+						</div>
+						<div class="col-lg-11" style="padding-top: 0px">
+							<p class="alerts-text">
+							Relacione outras necessidades de informação de TIC. Poderão ser incluídas necessidades relativas a aprimoramento, integração ou manutenção de sistemas, técnicas e recursos atuais.
+							</p>
+						</div>
+                      </div>
+                  </div>
+              </div>
+
+
+			<div class="col-lg-12"  style="padding-top: 15px">
+			    <label for="titulo" class="col-lg-2">
+			        Necessidade:
+			    </label>
+			    <div class="col-lg-10">
+			        <input type="text" class="form-control" id="titulo" placeholder="Nome da Necessidade" size="200">
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="descricao" class="col-lg-2">
+			        Descrição:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id='descricao'
+						placeholder="Qual a necessidade (nível tático/gerencial) que você descreveria para a melhoria das atividades e ações de TIC no CNPq? "></textarea>
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="justificativa" class="col-lg-2">
+			        Justificativa:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id="justificativa"
+						placeholder="Finalize com uma breve justificativa que poderemos utilizar para priorizar a necessidade ao desenvolvimento de projetos  de TIC."></textarea>
+			    </div>
+			</div>
+				
+			<div class="col-lg-12"  style="padding-top: 20px">
+			<div class="col-lg-12" style="padding-top: 25px">
+				<h4 class="list-group-item-heading">Associe esta necessidade aos Objetivos Estratégicos do CNPq e/ou da EGD.</h4>
+			</div>		
+			<div class="col-lg-6">
+
+  			  <div class="col-lg-12">
+			  <div class="panel-group" id="accordion2">
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion2" href="#estratCNPq1" style="color: white; text-decoration: none">
+							   Objetivos Estratégicos do CNPq
+					  </a>
+					</h4>
+				  </div>
+				  <div id="estratCNPq1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								CNPq.01 - Aumentar a capacidade institucional de articulaçao, integração e participação na formulação das políticas de CT&I
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.02 - Definir modelo de fomento flexível e adequado às diferentes realiadades
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.03 - Aprimorar e racionalizar os processos de trabalho
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.04 - Estimular a competitividade internacional das empresas
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.05 - Capacitar gestores de cooperação internacional
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.06 - Capacitar pesquisadores e estudantes brasileiros no exterior
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.07 - Definir novos modelos de integração 
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.08 - Fazer parcerias aderentes à Estratégia Nacional de CT&I
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.09 - Atuar no aperfeiçoamento do Marco Legal e Regulatório e desburocratização dos processos
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.10 - Ampliar o papel do CNPq no ambiente de inovação
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.11 - Apoiar o processo inovativo
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.12 - Formar, capacitar e valorizar pessoas para inovação
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.13 - Ampliar os mecanismos de apoio para pesquisa inter/multi/transdisciplinares e interinstitucionais
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.14 - Criar sistema dinâmico e integrado de monitoramento e avaliação
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.15 - Promover o debate público, a divulgação e a educação em CT&I
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+									CNPq.16 - Fortalecer a relação entre compromisso social e excelência científica
+							</label>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+		</div>
+
+
+			<div class="col-lg-6" style="padding-left: 40px">
+			  <div class="col-lg-12" >
+			  <div class="panel-group" id="accordion3">
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion3" href="#estratEGD1" style="color: white; text-decoration: none">
+							   Objetivos Estratégicos da EGD
+					  </a>
+					</h4>
+				  </div>
+				  <div id="estratEGD1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.01 - Fomentar a disponibilização e o uso de dados abertos. 
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.02 - Ampliar o uso de TIC para promover a transparência e dar publicidade à aplicação dos recursos públicos.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.03 - Garantir a segurança da informação e comunicação do Estado e o sigilo das informações do cidadão.
+
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.04 - Expandir e inovar a prestação de serviços digitais.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.05 - Melhorar a governança e a gestão por meio do uso da tecnologia
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.06 - Facilitar e universalizar o uso e o acesso aos serviços digitais.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.07 - Compartilhar e integrar dados, processos, sistemas, serviços e infraestrutura.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.08 - Fomentar a colaboração no ciclo de políticas públicas.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.09 - Ampliar e incentivar a participação social na criação e melhoria dos serviços públicos.
+							</label>
+						</div>
+						<div class="checkbox">
+							<label>
+								<input type="checkbox" value="">
+								OE.10 - Aprimorar a interação direta entre governo e sociedade.
+							</label>
+						</div>
+					</div>
+					
+					</div>
+				</div>
+				</div>
+				</div>
+				
+		    <div class="col-lg-12">
+			  <div class="panel-group" id="accordion4">
+				<div class="panel panel-default">
+				  <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion4" href="outro1" style="color: white; text-decoration: none">
+							   Outros
+					  </a>
+					</h4>
+				  </div>
+				  <div id="outro1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+						<div class="checkbox col-lg-12">
+							<label class="radio-inline col-lg-3" for="outroSistema" >
+								<input type="radio" name="outro" id="outroSistema" value="option1">
+									<p style='top: 5px;position: relative;' >Sistema</p>
+							</label>
+						    <div class="col-lg-9">
+						        <input type="text" class="form-control" id="tituloSistema" placeholder="Informe o Sistema" size="144">
+						    </div>
+						</div>
+						<div class="checkbox col-lg-12">
+							<label class="radio-inline col-lg-3" for="outroPlataforma">
+								<input type="radio" name="outro" id="outroPlataforma" value="option1">
+									<p style='top: 5px;position: relative;'  >Plataforma</p>
+							</label>
+						    <div class="col-lg-9">
+						        <input type="text" class="form-control" id="tituloPlataforma" placeholder="Informe a Plataforma" size="144">
+						    </div>
+						</div>
+						<div class="checkbox col-lg-12">
+							<label class="radio-inline col-lg-3" for="outroAssunto" >
+								<input type="radio" name="outro" id="outroAssunto" value="option1" />
+									<p style='top: 5px;position: relative;' >Assunto</p>
+							</label>
+						    <div class="col-lg-9">
+						        <input type="text" class="form-control" id="tituloAssunto" placeholder="Informe o Assunto" size="144">
+						    </div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+			</div>
+				
+				
+			</div>
+
+
+
+		    <div class="col-lg-12 text-right " style="padding-top: 10px">
+				<a href="#pt02" class="btn btn-info " id='idSalvarPt01' role="button">Registrar</a>
+				<a href="#" class="btn btn-info " id='idIncluirMaisPt01' role="button">Incluir +</a>
+           	</div>
+
+		</div>
+		
+	<div class="col-lg-12 text-right " style='padding: 25px'>
+		<a href="006_finalizacao.html" class="btn btn-info " id='idIncluirMaisPt01' role="button">Próximos passos</a>
+	</div>
+
+
+		</div>
+		</div>
+
+
+	</div>
+
+<script>
+$(document).ready(function(){
+    $("#idInformarOutro").click(function(){
+        $("#idPanelInformarOutro").slideToggle(1000);
+    });
+});
+</script>
+</body>
+</html>

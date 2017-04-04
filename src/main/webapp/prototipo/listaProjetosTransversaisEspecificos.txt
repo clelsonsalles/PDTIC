@@ -1,0 +1,739 @@
+Projeto T1
+Criar e implementar sistemática de Monitoramento e Avaliação do Plano. Estratégico, subsidiando a DEX na condução das Reuniões de Análise da Estratégia.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Consolidar a cultura do planejamento estratégico e da avaliação continuada das atividades do CNPq, considerado um valioso instrumento de gestão da alta administração.
+O monitoramento e a avaliação da estratégia fazem parte do ciclo da Gestão. Essa sistemática permitirá que as ações planejadas aconteçam de fato, com ajustes e correções de rumos sempre que necessário, agregando valor e dando visibilidade aos resultados institucionais.
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T2
+Criar e implementar novo Modelo de Monitoramento, Avaliação e disponibilização de resultados de Bolsas, no País e no exterior, de Auxílios Individuais, de Chamadas e Encomendas, e de Projetos de Pesquisa.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Há uma demanda crescente por transparência e feedback por parte da sociedade civil para legitimar o financiamento de projetos de quaisquer natureza, com a exigência de retorno efetivo e impacto positivo voltado ao bem estar individual, coletivo e ambiental. Dessa forma, o desenvolvimento de instrumentos de monitoramento e avaliação, bem como a devida divulgação de resultados e impactos são essenciais para a manutenção do CNPq como entidade de fomento
+a pesquisa com uso de recursos do erário e de outras fontes de recurso cabíveis dentro da devida oportunidade e conveniência.
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T3
+Reunir, rever, alinhar e formalizar parâmetros de negociação, para identificar, prospectar, atrair e estabelecer novos Acordos de Cooperação, nacionais e internacionais.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Estabelecer um guia que sirva de base para as negociações, a fim de assegurar as prerrogativas legais e as prioridades institucionais, de forma a prevenir e evitar problemas futuros e possibilitar o efetivo cumprimento do Acordo.
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T4
+Avaliar e propor a reestruturação do Modelo de Fomento, contemplando inovação, transversalidade e transdisciplinaridade na promoção da pesquisa e desenvolvimento tecnológico, considerando os subprojetos:
+• Fomentar projetos inovadores em PD&I de alto risco por meio de chamadas específicas.
+• Criar e ou adequar ferramentas para recebimento e incentivo de propostas em rede.
+• Avaliar e propor a reestruturação da lógica de organização dos Comitês de Assessoramento.
+• Realizar revisão da lógica de distribuição de recursos orçamentários de fomento à pesquisa e bolsas.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Diante a uma situação relativamente engessada de instrumentos e rotinas de fomento a pesquisa, bem como uma tradicional forma de ver o desenvolvimento da ciência no Brasil, torna-se necessário um modelo de fomento mais dinâmico e contextualizado às necessidades sociais e do Estado. 
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T5
+Implementar Plano de Monitoramento e Avaliação de Convênios e Acordos de Cooperação Nacionais.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A legislação vigente, aplicada a Convênios e Acordos de Cooperação, determina que o CNPq possua estrutura adequada para executar atividades de acompanhamento e fiscalização. Para isso, o CNPq deve redimensionar e capacitar seu corpo técnico, bem como garantir os recursos necessários à execução das atividades de acompanhamento e fiscalização.
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T6
+Realizar revisão completa de normas relacionadas às atividades das Diretorias.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O projeto tem por objetivo:
+- Eliminar incoerência entre as normas.
+- Facilitar o acesso e compreensão das normas pelo público interno e externo.
+- Compatibilizar as normas com os sistemas do CNPq.
+- Desenvolver uma sistemática formal de alteração e proposição de normas.
+- Rever e estabelecer diretrizes ao PADRONIZA.
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto T7
+Realizar mapeamento dos processos de trabalho do CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Elaborar proposta metodológica para a gestão de processos adequada ao CNPq que possa auxiliar a ação gerencial e de comunicação, bem como ajudar a melhorar os processos existentes ou implantar uma nova estrutura voltada para processos. Esse projeto auxiliará também, na verificação dos pontos fortes, dos pontos fracos (aspectos que precisam ser melhorados, tais como: complexidade no desempenho das atividades, redução de custos, gargalos, falhas de integração, atividades redundantes, tarefas de baixo valor agregado, retrabalhos, excesso de documentação e aprovações), além de melhorar o entendimento sobre os processos e aumentar o desempenho.
+
+
+
+
+
+
+
+
+
+PROJETOS ESPECÍFICOS
+
+DGTI 
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1
+Definir e implementar modelo de Gestão de Desempenho e Bem-Estar por Competências.
+
+Obs.: Projeto guarda-chuva, uma espécie de programa que reúne os Projetos Específicos identificados por E1.1 a E1.7, a seguir:
+
+											
+
+	</div>
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.1
+Desenvolver e implementar novo modelo de Avaliação de Desempenho.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Em cumprimento ao Decreto 7.133/10 que regulamenta os critérios e procedimentos gerais a serem observados para a realização das avaliações de desempenho individual, institucional e o pagamento da Gratificação de Desempenho de Atividade de Ciência e Tecnologia (GDACT), desenvolver Sistema Informatizado de Avaliação de Desempenho alinhado a competências organizacionais já mapeadas.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.2
+<p style='padding-left: 30px; font-size: 1.5em'>
+Reformular o Mapeamento de Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O mapeamento de competências se constitui em importante estratégia organizacional no tocante à tomada de decisão referente à provisão de vagas, planos de capacitação, gestão do desempenho e movimentação na carreira no CNPq.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.3
+<p style='padding-left: 30px; font-size: 1.5em'>
+Realizar Dimensionamento da Força de trabalho do
+CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A iniciativa do planejamento da força de trabalho com base nas competências, se constitui em estratégia organizacional para o desenvolvimento gerencial no tocante à tomada de decisão referente à movimentação na carreira, aos planos de capacitação e provisão de vagas, para que o CNPq tenha garantido seu pleno funcionamento, bem como a otimização do desempenho das funções desenvolvidas pelos servidores. 
+</p>
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.4
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar pesquisa de Qualidade de Vida no Trabalho – 2ª edição.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O Projeto objetiva verificar os aspectos que tecem o conceito de Qualidade de Vida no Trabalho sob a ótica dos servidores, bem como conhecer como os servidores caracterizam no CNPq sob o aspecto das condições de trabalho, a organização e as relações socioprofissionais do ambiente organizacional e ainda as possibilidades de reconhecimento/crescimento profissional. Mapear as fontes de mal-estar e bem-estar no trabalho, internamente ao CNPq.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.5
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar e implementar Plano de Capacitação e Desenvolvimento de pessoas com base em competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Implementar programa continuado de desenvolvimento dos servidores com foco na melhoria dos conhecimentos, habilidades e atitudes (gestão por competência) necessárias ao desempenho das funções conforme determinado pela Política Nacional de Desenvolvimento de Pessoal da administração pública federal.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.6
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar nova sistemática de Movimentação de Pessoal com base em Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Desenvolver sistemática de movimentação de pessoal com base em competências, objetivando a transferência de conhecimento tácito para preservar a cultura organizacional, garantindo um melhor clima organizacional e melhor qualidade de vida aos servidores.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.7
+<p style='padding-left: 30px; font-size: 1.5em'>
+Criar Banco de Talentos por Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Criar e implantar Banco de Talentos por meio de sistema gerencial que permita identificar e tratar os conhecimentos e competências pessoais e institucionais disponíveis no CNPq.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E2
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar Proposta para Reestruturação da Carreira de C&T.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A estrutura atual do Plano de Carreiras aplicado aos servidores integrantes da carreira de Gestão, Planejamento e Infraestrutura em Ciência e Tecnologia do Governo Federal, fundamentada na Lei 8.691/93 requer urgente remodelação, uma vez que, da maneira como se encontra hoje, tem causado grandes entraves para a área de Recursos Humanos do CNPq e criando dificuldades para a manutenção de servidores capacitados para o exercício das atividades administrativas.
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E3
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar e lançar Edital de Concurso Público.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Objetivo geral: Suprir todas as áreas com pessoal qualificado objetivando atender à missão do CNPq.
+Objetivo tangível: Obter autorização para a realização de concurso dentro dos parâmetros de qualidade e quantidade.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E4
+<p style='padding-left: 30px; font-size: 1.5em'>
+Aprimorar o projeto: "Construindo o Amanhã".
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Criar espaço e oportunidade para que o servidor reflita e discuta a questão da aposentadoria.
+</p>
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E5
+<p style='padding-left: 30px; font-size: 1.5em'>
+Integrar os Sistemas Corporativos do CNPq, partindo de análise para identificar quais sistemas podem e devem ser integrados (pendente de detalhamento - SIRH, SIGEPE, SIAS, SIAPE, SIAFI, DI com Receita Federal, eGAD com CEI, do DI com o Lattes). Unificar as funcionalidades da PICC, do CNPq Sistemas, do Confio e do DI.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é integrar as bases de consultas necessárias a implementação e acompanhamento dos processos das bolsas e auxílios e dos processos administrativos do CNPq, de forma confiável e eficaz, eliminando a necessidade de acesso a diversos sistemas e garantindo a agilidade nas respostas para as consultas realizadas.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E6
+<p style='padding-left: 30px; font-size: 1.5em'>
+Desenvolver, aperfeiçoar e implementar o sistema eletrônico de processos, integrando documentos administrativos, de fomento e de gestão de pessoas (eGAD).
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Prover o CNPq de um Sistema Integrado de Gestão Arquivística de Documentos que permita controlar a produção, o recebimento, a tramitação e o arquivamento de documentos internos e externos ao CNPq.
+</p>
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DCOI 
+
+
+		  <div class="panel-group" id="accordionDCOI">
+		    <div class="panel panel-default">
+		      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" data-parent="accordionDCOI" href="#collapse1" style="color: white; text-decoration: none">
+		          	DCOI
+				  </a>
+		        </h4>
+		      </div>
+			    <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 10px; ">			
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDCOI" href="#collapseE9" style="color: white; text-decoration: none">
+						          	Projeto DCOI/COPAD E9
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE9" class="panel-collapse collapse in">
+									<div class="panel-body" style="padding-top: 10px; ">			
+
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E9
+<p style='padding-left: 30px; font-size: 1.5em'>
+Reavaliar e propor adequação da Plataforma Integrada Carlos Chaga (PICC), de forma a melhor atender a gestão dos programas.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A proposta visa adequar e aprimorar a PICC às necessidades de gestão dos programas da COPAD.
+</p>
+
+
+
+</div>
+
+									</div>
+								</div>
+							</div>
+
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E10
+<p style='padding-left: 30px; font-size: 1.5em'>
+Realizar reunião nacional de trabalho para obter subsídios para reformulação do programa PIBIC-EM.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é obter subsídios para aprimoramento do PIBIC-EM por meio de reunião com os representantes institucionais e coordenadores do PIBIC-EM.
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E11
+<p style='padding-left: 30px; font-size: 1.5em'>
+Avaliar os programas de bolsas PIBIC, PIBITI e PIBIC-Af.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é promover a avaliação dos programas PIBIC, PIBIC-Af e PIBITI. Com este objetivo contratamos a consultoria externa do Centro de Gestão e Estudos Estratégicos (CGEE). A partir dos resultados desta avaliação, planejamos aprimorar os instrumentos de gestão e acompanhamento dos programas.
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E12
+<p style='padding-left: 30px; font-size: 1.5em'>
+Propor nova sistemática de concessão e Gestão de bolsas de Mestrado e Doutorado por cotas, no país.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é rever a atual sistemática e propor reestruturação na forma de concessão de bolsas com vistas a propiciar o aprimoramento do programa. A proposta a ser implementada deverá criar mecanismos de concessão que tornem o processo mais transparente e justo, propiciando a ampla concorrência por meio de chamada pública. 
+</p>
+
+
+
+
+
+
+
+
+
+APA
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APA E13
+<p style='padding-left: 30px; font-size: 1.5em'>
+Formalizar sistemática de acompanhamento de emendas parlamentares ao orçamento do CNPq ou a este repassado para execução por convênio.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Aprimorar os processos internos voltados para o atendimento às demandas parlamentares externas, possibilitando maior efetividade, por meio de mecanismos transparentes de controle e de acompanhamento das demandas. 
+</p>
+
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APA E14
+<p style='padding-left: 30px; font-size: 1.5em'>
+Formalizar sistemática de recepção e acompanhamento do atendimento de demandas  parlamentares ao CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo é aprimorar os processos internos voltados para o atendimento às demandas parlamentares junto ao CNPq, possibilitando maior efetividade, por meio de mecanismos transparentes de controle e de acompanhamento. 
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APA E15
+<p style='padding-left: 30px; font-size: 1.5em'>
+Formalizar sistemática de acompanhamento de proposições, pautas e tendências legislativas de interesse do CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O presente projeto tem por objetivo:
+• Propiciar o acompanhamento de ocorrências e tendências legislativas.
+• Subsidiar a atuação da APA na tomada de decisão junto aos setores envolvidos.
+• Facultar as demais áreas identificar oportunidades, conveniências ou necessidades de atuação. 
+</p>
+
+
+
+
+FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - FALTA O E16 - 
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APL E17
+<p style='padding-left: 30px; font-size: 1.5em'>
+Coordenar o Desdobramento do Plano Estratégico do CNPq em Planos Táticos e Planos Operacionais.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O desdobramento da estratégia organizacional tem se tornado um pressuposto do êxito na implementação dos Objetivos Estratégicos. Logo, realizar o desdobramento para os níveis tático e operacional da organização é uma premissa para que se possa executar, monitorar e avaliar as ações do dia a dia dos servidores, de maneira alinhada com o que foi estabelecido na estratégia corporativa (Mapa Estratégico).
+</p>
+
+
+
+
+
+
+
+APL
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APL E18
+<p style='padding-left: 30px; font-size: 1.5em'>
+Construir, em articulação com as demais áreas do CNPq, o PPA para o período de 2016 a 2019.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O projeto de formulação do Plano Plurianual, conforme já informado acima, decorre de exigência legal. Os Programas em questão atendem à atividade finalística do CNPq.
+</p>
+
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto APL E19
+<p style='padding-left: 30px; font-size: 1.5em'>
+Criar sistemática de avaliação e incorporação de melhores práticas advindas de demandas da Ouvidoria no sentido de incrementar a gestão institucional.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Implementar a cultura de incremento constante da gestão organizacional a partir de diferentes sugestões, seja do público interno ou do público externo.
+</p>
+
+
+
+
+
+
+
+
+
+COEST
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COEST E20
+<p style='padding-left: 30px; font-size: 1.5em'>
+Modernizar o atual Diretório de Instituições - DI quanto aos requisitos, funcionalidades e conteúdos necessários para atender seus objetivos.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo é modernizar e integrar o DI com outras bases de dados internas e externas ao CNPq e gerar interface com serviços correlatos.
+</p>
+
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COEST E21
+<p style='padding-left: 30px; font-size: 1.5em'>
+Calcular e monitorar os indicadores relacionados aos objetivos estratégicos e de contribuição do plano estratégico do CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O projeto visa ao melhor atendimento às demandas externas, bem como, à demanda interna no sentido de avaliar o trabalho desenvolvido pelo CNPq. 
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COEST E22
+<p style='padding-left: 30px; font-size: 1.5em'>
+Definir o novo Diretório dos Grupos de Pesquisa no Brasil – DGP quanto aos requisitos, funcionalidades e conteúdos necessários para mapear a atividade de pesquisa no país e acompanhar o desenvolvimento e a implementação do sistema junto ao setor de informática. Já implementado.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Melhorias no sistema a fim de satisfazer demandas interna e externa dos usuários.O novo DGP se propôs a refletir de forma mais fidedigna o mapeamento da pesquisa no país.
+</p>
+
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COCOM E23
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar e implementar Plano de Comunicação Social do CNPq.
+Em relação aos Objetivos de Contribuição, o Projeto contribui para todo o Mapa de Contribuição da COCOM.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A Comunicação Social constitui-se, em primeiro lugar, um dever legal de prestar contas à sociedade no sentido de demonstrar o resultado dos investimentos e dos programas, e reflete o interesse do Órgão em divulgar suas ações. Um Plano de Comunicação Social organiza o fluxo de informações, fomenta a cultura do CNPq em torno de gerar subsídios à Comunicação Institucional e organiza a própria Unidade quanto às prioridades e estratégias a serem atendidas.
+</p>
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COCOM E24
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar novo Manual de Identidade Visual.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A marca do CNPq é utilizada em diversos documentos e materiais de divulgação produzidos não só pela própria agência, como também, por pesquisadores, institutos e universidades apoiadas. 
+Dessa forma, o detalhamento de normas técnicas para elaboração e aplicação da marca faz-se necessário a fim de que se mantenha a identidade visual com fidelidade de cor, tamanho, fonte, além de garantir a aplicação de acordo com normas estabelecidas pela Secretaria de Comunicação da Presidência da República.
+</p>
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COCOM E25
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar Núcleo Audiovisual para modernizar as ferramentas de comunicação por meio da mídia
+eletrônica.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+A implementação do Núcleo de Produção Audiovisual do CNPq é necessária para adequação das ações de comunicação ao cenário atual, onde as produções audiovisuais vêm ganhando cada vez mais espaço como formato preferencial de comunicação institucional. Vários órgãos do governo vêm utilizando essa ferramenta como forma de ampliar seu o público e dar mais agilidade para a difusão de informações. O próprio MCTI possui uma WEBTV.
+</p>
+
+
+
+
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto COCOM E26
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar Política de Atendimento de Imprensa.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+A relação com a imprensa é importante no propósito de dialogar com a sociedade. Nesse sentido, é imprescindível que esteja garantido o repasse de informações corretas e bem fundamentadas. Além disso, o bom relacionamento com os jornalistas possibilita a conquista de espaços nos jornais para informações de interesse institucional. Para isso, é fundamental que toda a instituição esteja comprometida em subsidiar a COCOM sempre que necessário, no ritmo imposto pela dinâmica do processo jornalístico.
+</p>
+
+
+
+
+
+Ouvidoria	</div>
+</div>
+
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto Ouvidoria E27
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implantar sistema informatizado de recebimento e gestão de demandas recebidas pela Ouvidoria, fornecido pela CGU (e-Ouvidoria).
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+Implantar sistema informatizado de recebimento e gestão de demandas recebidas pela Ouvidoria, fornecido pela CGU (e-Ouvidoria).
+</p>
+
+
+
+

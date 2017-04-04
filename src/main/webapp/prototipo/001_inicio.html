@@ -1,0 +1,280 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantamento das Necessidades de Informação de TIC do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work 
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://prepbootstrap.com/Content/js/gridData.js"></script>
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Levantamento das Necessidades de Informação de TIC do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+		                <a class="navbar-nav" target="_blank" 
+		                	href="http://sisp.gov.br/guiapdtic/wiki/download/file/Guia_de_PDTIC_do_SISP_v2.0.pdf">
+		                Processo 2.7 do Guia de PDTIC do SISP
+						</a>
+					</li>
+                    <li  class="active"><a href="001_inicio.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li class="disabled"><a href="001_inicio.html" class="disabled"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li class="disabled"><a href="001_inicio.html" class="disabled" ><i class="glyphicon glyphicon-cog"></i> Outras Necessidades</a></li>
+                    <li class="disabled"><a href="001_inicio.html"  class="disabled"><i class="glyphicon glyphicon-check"></i> Finalização</a></li>
+                    <li><a href="glossario.html"><i class="glyphicon glyphicon-list-alt"></i> Glossário</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                        <a href="#" class="dropdown-toggle" style="color: white"><p class="dropdown-toggle" >Versão 0.4</p></a>
+                </ul>
+            </div>
+        </nav>
+
+       <div>
+        <div class="row text-center">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 35px">
+						<i class="glyphicon glyphicon-user" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-11 text-left">
+						<h1>Identificação </h1>
+						<h4 id="idMensagemUso" style="display: none">Os dados e informações serão de uso ao contexto das questões respondidas a seguir, não sendo objeto de divulgação dos resultados do levantamento de necessidades de PDTIC.</h4>
+						<h4 id="idMensagemAcesso">Informe o e-mail e a senha cadastrados, para entrar no Levantamento.</h4>
+                    </div>
+                </div>
+        </div>
+
+
+        <div id="idPanelCadastroInicial" class="col-lg-12" style="display: none">
+
+		    <div class="col-lg-2"></div>
+		    <div class="col-lg-8">
+
+
+			<div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Cadastro Inicial</h3>
+              </div>
+              <div class="panel-body">
+
+
+
+        <div class="col-lg-12">
+            <label for="firstname" class="col-lg-3">
+                Nome:
+            </label>
+            <div class="col-lg-8">
+                <input type="text" class="form-control" id="firstname" placeholder="Nome Completo">
+            </div>
+        </div>        
+        <div class="col-lg-12">
+            <label for="emailaddress" class="col-lg-3">
+                Email:
+            </label>
+            <div class="col-lg-8">
+                <input type="email" class="form-control" id="emailaddress" placeholder="Exemplo: nome@cnpq.br">
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <label for="password" class="col-lg-3">
+                Senha:
+            </label>
+            <div class="col-lg-8">
+                <input type="password" class="form-control" id="password" placeholder="Senha">
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <label for="unidade" class="col-lg-3">
+                Lotação:
+            </label>
+            <div class="col-lg-9" style="padding-bottom: 25px">
+	            <div class="col-lg-12">
+					<label class="radio-inline col-lg-3">
+						<input type="radio" name="lotacao" id="lotacao1" value="option1">
+							<small style='top: 5px;position: relative;'>DCOI</small>
+					</label>
+					<label class="radio-inline col-lg-3">
+						<input type="radio" name="lotacao" id="lotacao1" value="option1">
+							<small style='top: 5px;position: relative;'>DEHS</small>
+					</label>
+					<label class="radio-inline col-lg-3">
+						<input type="radio" name="lotacao" id="lotacao1" value="option1">
+							<small style='top: 5px;position: relative;'>DABS</small>
+					</label>
+	            </div>
+	            <div class="col-lg-12" style="top: 5px;position: relative;">
+					<label class="radio-inline col-lg-3">
+						<input type="radio" name="lotacao" id="lotacao1" value="option1">
+							<small style='top: 5px;position: relative;'>DGTI</small>
+					</label>
+					<label class="radio-inline col-lg-6">
+						<input type="radio" name="lotacao" id="lotacao1" value="option1">
+							<small style='top: 5px;position: relative;'>PRESIDÊNCIA</small>
+					</label>
+	            </div>
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <label for="cargo" class="col-lg-3">
+                Coordenação / Serviço:
+            </label>
+            <div class="col-lg-8">
+                <input class="form-control" id="cargo" placeholder="Ex.: CGXXX/CXXXX/SXXXX">
+            </div>
+        </div>
+
+        <div class="col-lg-12">
+            <label for="unidade" class="col-lg-3">
+                Cargo:
+            </label>
+            <div class="col-lg-9" style="padding-bottom: 25px">
+	            <div class="col-lg-12">
+					<label class="radio-inline col-lg-5">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Diretor(a)</small>
+					</label>
+					<label class="radio-inline col-lg-6">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Assessor(a)</small>
+					</label>
+	            </div>
+	            <div class="col-lg-12" style="top: 5px;position: relative;">
+					<label class="radio-inline col-lg-5">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Assistente de Diretoria</small>
+					</label>
+					<label class="radio-inline col-lg-6">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Coordenador(a) Geral</small>
+					</label>
+	            </div>
+	            <div class="col-lg-12" style="top: 10px;position: relative;">
+					<label class="radio-inline col-lg-5">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Coordenador(a) Técnico</small>
+					</label>
+					<label class="radio-inline col-lg-6">
+						<input type="radio" name="cargo" id="cargo1" value="option1">
+							<small style='top: 5px;position: relative;'>Chefe de Serviço</small>
+					</label>
+	            </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="col-lg-12 text-right">
+                <label>
+                    <input type="checkbox" id='idIniciarCadastro'> Desejo realizar o meu cadastro e iniciar este levantamento</label>
+            </div>            
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-right ">
+		<a href="002_instrucoes.html" class="btn btn-info disabled" id='idBotaoCadastrar' role="button">Cadastrar</a>
+            </div>
+        </div>
+    </div>  
+    </div>  
+    </div>  
+
+
+    <div class="col-lg-2">
+    </div>
+
+    </div>    </div>  
+
+
+
+    <div id="idPanelLogin" class="col-lg-12">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+
+
+
+		<div class="panel panel-primary">
+             <div class="panel-heading">
+               <h3 class="panel-title">Realizar Login</h3>
+             </div>
+	        <div class="panel-body">
+		        <div class="col-lg-12">
+		            <label for="login" class="col-lg-3">
+		                E-mail:
+		            </label>
+		            <div class="col-lg-9">
+		                <input type="text" class="form-control" id="login" placeholder="Exemplo: nome@cnpq.br">
+		            </div>
+		        </div>
+		        <div class="col-lg-12">
+		            <label for="senha" class="col-lg-3">
+		                Senha:
+		            </label>
+		            <div class="col-lg-9">
+		                <input type="password" class="form-control" id="senha" placeholder="Senha">
+		            </div>
+		        </div>
+				<div class="col-lg-12 text-right " style='padding-top: 25px'>
+					<a href="002_instrucoes.html" class="btn btn-info" role="button">Entrar</a>
+				</div>
+
+
+				<div id="idPanelCadastro" class="col-lg-12" style='padding-top: 25px'>
+				
+					<div class="col-lg-5 text-right" style='padding-top: 25px'>
+						<p id="idPanelCadastroAviso" style="display: none; padding-top: 15px">Se você ainda não tem um login <i class="glyphicon glyphicon-hand-right"></i> </p>
+					</div>
+					<div class="col-lg-4 text-left " style='padding-top: 25px'>
+						<a id="idBotaoCadastrarNovo" style="display: none;"
+							href="#" class="btn btn-warning" role="button">Realizar o Cadastro</a>
+					</div>
+				</div>
+
+		    </div>  
+	    </div>  
+    </div>  
+
+
+    <div class="col-lg-2">
+    </div>
+
+    </div>  
+    </div>  
+    </div>  
+    <script type="text/javascript">
+	    $(document).ready(function(){
+			$( '#idBotaoCadastrarNovo' ).show(3000);
+			$( '#idPanelCadastroAviso' ).toggle(4000);
+
+			$( '#idIniciarCadastro' ).click(function() {
+			  $( '#idBotaoCadastrar' ).toggleClass( "disabled" );
+			});
+			$( '#idBotaoCadastrarNovo' ).click(function() {
+			  $( '#idPanelCadastroInicial' ).slideToggle(1000);
+			  $( '#idPanelLogin' ).slideToggle(1000);
+			  $( '#idMensagemAcesso' ).slideToggle();
+			  $( '#idMensagemUso' ).slideToggle();
+			});
+		});
+    </script>
+
+
+</body>
+</html>

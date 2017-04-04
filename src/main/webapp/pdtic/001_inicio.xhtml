@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="./templates/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	
+	<ui:define name="conteudo">
+		<style type="text/css">
+	   		.ui-chkbox-box{
+				background: #b5b5b5 !important;			
+			}
+		</style>
+										
+        <div class="row text-center">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 35px">
+						<i class="glyphicon glyphicon-user" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-11 text-left">
+						<h1>Identificação </h1>
+						<h4 id="idMensagemUso" style="display: none">Os dados e informações serão de uso ao contexto das questões respondidas a seguir, não sendo objeto de divulgação dos resultados do levantamento de necessidades de PDTIC.</h4>
+						<h4 id="idMensagemAcesso">Informe o e-mail e a senha cadastrados, para entrar no Roteiro.</h4>
+                    </div>
+                </div>
+        </div>
+
+
+    <div id="idPanelLogin" class="col-lg-12">
+    <div class="col-lg-2"></div>
+    <div class="col-lg-8">
+
+
+
+		<div class="panel panel-primary">
+             <div class="panel-heading">
+               <h3 class="panel-title">Realizar Login</h3>
+             </div>
+	        <div class="panel-body">
+		        <div class="col-lg-12">
+		            <label for="login" class="col-lg-3">
+		                E-mail:
+		            </label>
+		            <div class="col-lg-9">
+		                <h:inputText class="form-control" id="login" placeholder="Exemplo: nome@cnpq.br" />
+		            </div>
+		        </div>
+		        <div class="col-lg-12">
+		            <label for="senha" class="col-lg-3">
+		                Senha:
+		            </label>
+		            <div class="col-lg-9">
+		                <h:inputText  class="form-control" id="senha" placeholder="Senha" />
+		            </div>
+		        </div>
+				<div class="col-lg-12 text-right " style='padding-top: 25px'>
+					<a href="002_instrucoes.html" class="btn btn-info" role="button">Entrar</a>
+				</div>
+
+
+				<div id="idPanelCadastro" class="col-lg-12" style='padding-top: 25px'>
+				
+					<div class="col-lg-5 text-right" style='padding-top: 25px'>
+						<p id="idPanelCadastroAviso" style="display: none; padding-top: 15px">Se você ainda não tem um login <i class="glyphicon glyphicon-hand-right"></i> </p>
+					</div>
+					<div class="col-lg-4 text-left " style='padding-top: 25px'>
+						<a id="idBotaoCadastrarNovo" style="display: none;"
+							href="001_cadastro.xhtml" class="btn btn-warning" role="button">Realizar o Cadastrado</a>
+					</div>
+				</div>
+
+		    </div>  
+	    </div>  
+    </div>  
+
+
+    <div class="col-lg-2">
+    </div>
+
+			    </div>  
+
+
+    <script type="text/javascript">
+	    $(document).ready(function(){
+			$( '#idBotaoCadastrarNovo' ).show(3000);
+			$( '#idPanelCadastroAviso' ).toggle(4000);
+
+			$( '#idIniciarCadastro' ).click(function() {
+			  $( '#idBotaoCadastrar' ).toggleClass( "disabled" );
+			});
+			$( '#idBotaoCadastrarNovo' ).click(function() {
+			  $( '#idPanelCadastroInicial' ).slideToggle(1000);
+			  $( '#idPanelLogin' ).slideToggle(1000);
+			  $( '#idMensagemAcesso' ).slideToggle();
+			  $( '#idMensagemUso' ).slideToggle();
+			});
+		});
+    </script>
+		
+		
+	</ui:define>
+</ui:composition>
+
+
+

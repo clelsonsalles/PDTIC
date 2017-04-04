@@ -1,0 +1,1043 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantamento das Necessidades de Informação de TIC do CNPq</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/local.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- you need to include the shieldui css and js assets in order for the charts to work 
+    <link rel="stylesheet" type="text/css" href="http://www.shieldui.com/shared/components/latest/css/light-bootstrap/all.min.css" />
+    <script type="text/javascript" src="http://www.shieldui.com/shared/components/latest/js/shieldui-all.min.js"></script>
+    <script type="text/javascript" src="http://prepbootstrap.com/Content/js/gridData.js"></script>
+    -->
+</head>
+<body>
+    <div id="wrapper">
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Levantamento das Necessidades de Informação de TIC do CNPq</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+		                <a class="navbar-nav" target="_blank" 
+		                	href="http://sisp.gov.br/guiapdtic/wiki/download/file/Guia_de_PDTIC_do_SISP_v2.0.pdf">
+		                Processo 2.7 do Guia de PDTIC do SISP
+						</a>
+					</li>
+                    <li><a href="001_inicio.html"><i class="glyphicon glyphicon-user"></i> Identificação</a></li>
+                    <li><a href="002_instrucoes.html"><i class="glyphicon glyphicon-flag"></i> Instruções</a></li>
+                    <li><a href="003_projetosTransversais.html" ><i class="glyphicon glyphicon-fullscreen"></i> Projetos Transversais</a></li>
+                    <li class="active"><a href="004_projetosEspecificos.html" ><i class="glyphicon glyphicon-transfer"></i> Projetos Específicos</a></li>
+                    <li><a href="005_novosProjetos.html" ><i class="glyphicon glyphicon-cog"></i> Outras Necessidades</a></li>
+                    <li><a href="006_finalizacao.html" ><i class="glyphicon glyphicon-check"></i> Finalização</a></li>
+                    <li><a href="glossario.html"><i class="glyphicon glyphicon-list-alt"></i> Glossário</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right navbar-user">
+                    <li class="dropdown messages-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-envelope"></i> Messages <span class="badge">2</span> <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">2 New Messages</li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="message-preview">
+                                <a href="#">
+                                    <span class="avatar"><i class="fa fa-bell"></i></span>
+                                    <span class="message">Security alert</span>
+                                </a>
+                            </li>
+                            <li class="divider"></li>
+                            <li><a href="#">Go to Inbox <span class="badge">2</span></a></li>
+                        </ul>
+                    </li>
+                     <li class="dropdown user-dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> Steve Miller<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><i class="fa fa-user"></i> Profile</a></li>
+                            <li><a href="#"><i class="fa fa-gear"></i> Settings</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><i class="fa fa-power-off"></i> Log Out</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="page-wrapper" style="padding-top: 0px">
+            <div class="row">
+                <div class="col-lg-12">
+					<div class="col-lg-1" style="padding-top: 45px">
+						<i class="glyphicon glyphicon-transfer" style="font-size:4em;"></i> 
+                    </div>
+	                <div class="col-lg-7" >
+		                <div class="col-lg-12">
+							<h1 style="font-size: 1.8em;">Projetos Específicos </h1>
+						</div>
+		                <div class="col-lg-12 text-bottom" style="top: 40px;position: absolute;">
+							<h4 style="font-size: 1em; padding: 0px; ">
+							Os Projetos Específicos, embora possam ser de interesse da organização como um todo, são menos complexos que os transversais e podem ser planejados e executados no âmbito de governabilidade de uma determinada área, com eventuais participações de outras, como fornecedoras de insumos ou informações. 
+							</h4> 
+						</div>
+                    </div>
+
+	                <div class="col-lg-4">
+	                    <div class="panel panel-default ">
+	                        <div class="panel-body alert-warning">
+	                            <div class="col-lg-2" style="font-size:3em; padding: 10px 0 0 0">
+	                                <i class="glyphicon glyphicon glyphicon-link" ></i>
+	                            </div>
+								<div class="col-lg-10" style="padding: 0px">
+									<p class="alerts-text">Documentos de Referência</p>
+					                <div class="col-lg-12 " style="padding-left: 0px; ">
+										<a href="http://portal-intranet.cnpq.br/documents/1123862/1124301/Planejamento+Estrat%C3%A9gico+CNPq+2025+-+Plano+Operacional/79206635-6dd6-4226-af54-f8ff834075a2" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										Planejamento Estratégico CNPq
+										</a></br>
+										<a href="http://sisp.gov.br/egd/wiki/download/file/EGD" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										EGD
+										</a></br>
+										<a href="http://portal-intranet.cnpq.br/web/ti/documentos-de-referencia" 
+											target="_blank" style="text-decoration: none">
+										<i class="glyphicon glyphicon-file" style="font-size:1em;"></i> 
+										Outras referências
+										</a>
+									</div>
+								</div>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+
+                <div class="col-lg-12">
+                <div class="col-lg-6" style="padding-top: 10px">
+                    <div class="panel panel-default " >
+                        <div class="panel-body alert-warning">
+                            <div class="col-lg-2"  style="padding-top: 5px">
+                                <i class="glyphicon glyphicon glyphicon-edit" style="font-size:3em;"></i>
+                            </div>
+							<div class="col-lg-10">
+								<p>Recomenda-se, pelo menos, que você preencha as necessidades relacionadas à sua Área.</p>
+								<p>Entretanto, você pode contribuir com o levantamento de necessidades para outras áreas, se julgar necessário</p>
+								<p>Selecione a área para a qual deseja informar necessidades de informação de TIC </p>
+							</div>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-6">
+				<div class="col-lg-12">
+					<div class="col-lg-3">
+						<div id="panelDGTI" class="panel panel-default ">
+							<div class="panel-body alert-warning">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-question-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">DGTI</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  id="panelDCOI" class="col-lg-3">
+						<div class="panel panel-default ">
+							<div class="panel-body alert-success">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-ok-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">DCOI</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  id="panelAPA" class="col-lg-3">
+						<div class="panel panel-default ">
+							<div class="panel-body alert-success">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-ok-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">APA</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  id="panelAPL" class="col-lg-3">
+						<div class="panel panel-default ">
+							<div class="panel-body alert-warning">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-question-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">APL</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div  id="panelCOEST" class="col-lg-12">
+					<div class="col-lg-3">
+						<div class="panel panel-default ">
+							<div class="panel-body alert-warning">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-question-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">COEST</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  id="panelCOCOM" class="col-lg-3">
+						<div class="panel panel-default ">
+							<div class="panel-body alert-warning">
+								<div class="col-lg-4">
+									<i class="glyphicon glyphicon-question-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-8">
+									<p class="alerts-text">COCOM</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div  id="panelOUVIDORIA" class="col-lg-3">
+						<div class="panel panel-default text-center">
+							<div class="panel-body alert-warning">
+								<div class="col-lg-12">
+									<i class="glyphicon glyphicon-question-sign" style="font-size:2em;"></i>
+								</div>
+								<div class="col-lg-12">
+									<p class="alerts-text">Ouvidoria</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				</div>
+				</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-lg-12">
+			
+		  <div class="panel-group" id="accordionDGTI" style='display: none'>
+		    <div class="panel panel-default">
+		      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" data-parent="accordionDGTI" href="#collapse1" style="color: white; text-decoration: none">
+		          	DGTI
+				  </a>
+		        </h4>
+		      </div>
+			    <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 10px; ">			
+
+						  <div class="panel-group" id="accordionDGTI_E1">
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_E1" href="#collapseE1" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E1
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE1" class="panel-collapse collapse in">
+		<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+<div class="col-lg-12" style='padding-top: 10px; '>
+	<div class="alert alert-dismissable alert-info">
+Projeto DGTI/CGRH E1
+<p style='padding-left: 30px; font-size: 1.2em'>
+Definir e implementar modelo de Gestão de Desempenho e Bem-Estar por Competências.
+</p>
+Observação: 
+<p style='padding-left: 30px;'>
+Projeto guarda-chuva, uma espécie de programa que reúne os Projetos Específicos identificados por E1.1 a E1.7, a seguir:
+</p>
+
+											
+
+	</div>
+	
+	
+</div>
+										<div class="col-lg-12">
+											<div class="panel-group" id="accordionDGTI_E1_filhos">
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_1" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.1
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_1" class="panel-collapse collapse in">
+		<div class="panel-body" style="padding-top: 0px; ">			
+<div class="col-lg-12" style='padding-top: 10px; '>
+	<div class="alert alert-dismissable alert-info">
+Projeto DGTI/CGRH E1.1
+<p style='padding-left: 30px; font-size: 1.2em'>
+Desenvolver e implementar novo modelo de Avaliação de Desempenho.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+Em cumprimento ao Decreto 7.133/10 que regulamenta os critérios e procedimentos gerais a serem observados para a realização das avaliações de desempenho individual, institucional e o pagamento da Gratificação de Desempenho de Atividade de Ciência e Tecnologia (GDACT), desenvolver Sistema Informatizado de Avaliação de Desempenho alinhado a competências organizacionais já mapeadas.
+</p>
+	</div>
+              <div class="col-lg-12" style="padding-top: 5px">
+                  <div class="panel panel-default ">
+                      <div class="panel-body alert-warning">
+						<div class="col-lg-1">
+						    <i class="glyphicon glyphicon glyphicon-edit" style="font-size:3em;"></i>
+						</div>
+						<div class="col-lg-11" style="padding-top: 10px">
+							<p class="alerts-text">
+							Relacione suas necessidades de informação de TIC para este Projeto Específico
+							</p>
+						</div>
+                      </div>
+                  </div>
+              </div>
+
+
+			<div class="col-lg-12"  style="padding-top: 15px">
+			    <label for="titulo" class="col-lg-2">
+			        Necessidade:
+			    </label>
+			    <div class="col-lg-10">
+			        <input type="text" class="form-control" id="titulo" placeholder="Nome da Necessidade" size="200">
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="descricao" class="col-lg-2">
+			        Descrição:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id='descricao'
+						placeholder="Qual a necessidade (nível tático/gerencial) que você descreveria para a melhoria das atividades e ações de TIC no CNPq? "></textarea>
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="justificativa" class="col-lg-2">
+			        Justificativa:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id="justificativa"
+						placeholder="Finalize com uma breve justificativa que poderemos utilizar para priorizar a necessidade ao desenvolvimento de projetos  de TIC."></textarea>
+			    </div>
+			</div>
+		    <div class="col-lg-12 text-right " style="padding-top: 10px">
+				<a href="#pt02" class="btn btn-info " id='idSalvarPt01' role="button">Registrar</a>
+				<a href="#" class="btn btn-info " id='idIncluirMaisPt01' role="button">Incluir +</a>
+           	</div>
+
+			
+		</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_2" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.2
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_2" class="panel-collapse collapse ">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.2
+<p style='padding-left: 30px; font-size: 1.5em'>
+Reformular o Mapeamento de Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O mapeamento de competências se constitui em importante estratégia organizacional no tocante à tomada de decisão referente à provisão de vagas, planos de capacitação, gestão do desempenho e movimentação na carreira no CNPq.
+</p>
+
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_3" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.3
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_3" class="panel-collapse collapse ">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.3
+<p style='padding-left: 30px; font-size: 1.5em'>
+Realizar Dimensionamento da Força de trabalho do
+CNPq.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A iniciativa do planejamento da força de trabalho com base nas competências, se constitui em estratégia organizacional para o desenvolvimento gerencial no tocante à tomada de decisão referente à movimentação na carreira, aos planos de capacitação e provisão de vagas, para que o CNPq tenha garantido seu pleno funcionamento, bem como a otimização do desempenho das funções desenvolvidas pelos servidores. 
+</p>
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_4" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.4
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_4" class="panel-collapse collapse">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.4
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar pesquisa de Qualidade de Vida no Trabalho – 2ª edição.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O Projeto objetiva verificar os aspectos que tecem o conceito de Qualidade de Vida no Trabalho sob a ótica dos servidores, bem como conhecer como os servidores caracterizam no CNPq sob o aspecto das condições de trabalho, a organização e as relações socioprofissionais do ambiente organizacional e ainda as possibilidades de reconhecimento/crescimento profissional. Mapear as fontes de mal-estar e bem-estar no trabalho, internamente ao CNPq.
+</p>
+
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_5" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.5
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_5" class="panel-collapse collapse">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.5
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar e implementar Plano de Capacitação e Desenvolvimento de pessoas com base em competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Implementar programa continuado de desenvolvimento dos servidores com foco na melhoria dos conhecimentos, habilidades e atitudes (gestão por competência) necessárias ao desempenho das funções conforme determinado pela Política Nacional de Desenvolvimento de Pessoal da administração pública federal.
+</p>
+
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_6" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.6
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_6" class="panel-collapse collapse">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.6
+<p style='padding-left: 30px; font-size: 1.5em'>
+Implementar nova sistemática de Movimentação de Pessoal com base em Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Desenvolver sistemática de movimentação de pessoal com base em competências, objetivando a transferência de conhecimento tácito para preservar a cultura organizacional, garantindo um melhor clima organizacional e melhor qualidade de vida aos servidores.
+</p>
+
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+										    <div class="panel panel-default">
+										      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+										        <h4 class="panel-title">
+										          <a data-toggle="collapse" data-parent="#accordionDGTI_E1_filhos" href="#collapseE1_7" style="color: white; text-decoration: none">
+										          	Projeto DGTI/CGRH E1.7
+												  </a>
+										        </h4>
+										      </div>
+											    <div id="collapseE1_7" class="panel-collapse collapse">
+													<div class="panel-body" style="padding-top: 10px; ">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E1.7
+<p style='padding-left: 30px; font-size: 1.5em'>
+Criar Banco de Talentos por Competências.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Criar e implantar Banco de Talentos por meio de sistema gerencial que permita identificar e tratar os conhecimentos e competências pessoais e institucionais disponíveis no CNPq.
+</p>
+
+
+
+	</div>
+</div>
+														
+													</div>
+												</div>
+											</div>
+
+
+
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+
+						  <div class="panel-group" id="accordionDGTI_filhos">
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_filhos" href="#collapseE2" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E2
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE2" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px;">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E2
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar Proposta para Reestruturação da Carreira de C&T.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A estrutura atual do Plano de Carreiras aplicado aos servidores integrantes da carreira de Gestão, Planejamento e Infraestrutura em Ciência e Tecnologia do Governo Federal, fundamentada na Lei 8.691/93 requer urgente remodelação, uma vez que, da maneira como se encontra hoje, tem causado grandes entraves para a área de Recursos Humanos do CNPq e criando dificuldades para a manutenção de servidores capacitados para o exercício das atividades administrativas.
+</p>
+
+
+
+
+	</div>
+</div>										
+									</div>
+								</div>
+							</div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_filhos" href="#collapseE3" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E3
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE3" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px;">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E3
+<p style='padding-left: 30px; font-size: 1.5em'>
+Elaborar e lançar Edital de Concurso Público.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Objetivo geral: Suprir todas as áreas com pessoal qualificado objetivando atender à missão do CNPq.
+Objetivo tangível: Obter autorização para a realização de concurso dentro dos parâmetros de qualidade e quantidade.
+</p>
+
+
+
+	</div>
+</div>
+									
+									</div>
+								</div>
+							</div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_filhos" href="#collapseE4" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E4
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE4" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px;">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E4
+<p style='padding-left: 30px; font-size: 1.5em'>
+Aprimorar o projeto: "Construindo o Amanhã".
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Criar espaço e oportunidade para que o servidor reflita e discuta a questão da aposentadoria.
+</p>
+
+
+	</div>
+</div>
+										
+									</div>
+								</div>
+							</div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_filhos" href="#collapseE5" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E5
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE5" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px;">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E5
+<p style='padding-left: 30px; font-size: 1.5em'>
+Integrar os Sistemas Corporativos do CNPq, partindo de análise para identificar quais sistemas podem e devem ser integrados (pendente de detalhamento - SIRH, SIGEPE, SIAS, SIAPE, SIAFI, DI com Receita Federal, eGAD com CEI, do DI com o Lattes). Unificar as funcionalidades da PICC, do CNPq Sistemas, do Confio e do DI.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é integrar as bases de consultas necessárias a implementação e acompanhamento dos processos das bolsas e auxílios e dos processos administrativos do CNPq, de forma confiável e eficaz, eliminando a necessidade de acesso a diversos sistemas e garantindo a agilidade nas respostas para as consultas realizadas.
+</p>
+
+
+
+	</div>
+</div>
+										
+									</div>
+								</div>
+							</div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDGTI_filhos" href="#collapseE6" style="color: white; text-decoration: none">
+						          	Projeto DGTI/CGRH E6
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE6" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px;">			
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DGTI/CGRH E6
+<p style='padding-left: 30px; font-size: 1.5em'>
+Desenvolver, aperfeiçoar e implementar o sistema eletrônico de processos, integrando documentos administrativos, de fomento e de gestão de pessoas (eGAD).
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+Prover o CNPq de um Sistema Integrado de Gestão Arquivística de Documentos que permita controlar a produção, o recebimento, a tramitação e o arquivamento de documentos internos e externos ao CNPq.
+</p>
+
+
+	</div>
+</div>
+										
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<div class="col-lg-12" >
+
+
+		  <div class="panel-group" id="accordionDCOI" style='display: none'>
+		    <div class="panel panel-default">
+		      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+		        <h4 class="panel-title">
+		          <a data-toggle="collapse" data-parent="#accordionDCOI" href="#collapse1_DCOI" style="color: white; text-decoration: none">
+		          	DCOI
+				  </a>
+		        </h4>
+		      </div>
+			    <div id="collapse1_DCOI" class="panel-collapse collapse in">
+					<div class="panel-body" style="padding-top: 10px; ">			
+
+						  <div class="panel-group" id="accordionDCOI_filhos">
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDCOI_filhos" href="#collapseE9" style="color: white; text-decoration: none">
+						          	Projeto DCOI/COPAD E9
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE9" class="panel-collapse collapse in">
+		<div class="panel-body" style="padding-top: 0px; font-size: 0.9em">			
+<div class="col-lg-12" style='padding-top: 10px; '>
+	<div class="alert alert-dismissable alert-info">
+Projeto DCOI/COPAD E9
+<p style='padding-left: 30px; font-size: 1.2em'>
+Reavaliar e propor adequação da Plataforma Integrada Carlos Chaga (PICC), de forma a melhor atender a gestão dos programas.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+A proposta visa adequar e aprimorar a PICC às necessidades de gestão dos programas da COPAD.
+</p>
+	</div>
+</div>
+
+              <div class="col-lg-12" style="padding-top: 5px">
+                  <div class="panel panel-default ">
+                      <div class="panel-body alert-warning">
+						<div class="col-lg-1">
+						    <i class="glyphicon glyphicon glyphicon-edit" style="font-size:3em;"></i>
+						</div>
+						<div class="col-lg-11" style="padding-top: 10px">
+							<p class="alerts-text">
+							Relacione suas necessidades de informação de TIC para este Projeto Específico
+							</p>
+						</div>
+                      </div>
+                  </div>
+              </div>
+
+
+			<div class="col-lg-12"  style="padding-top: 15px">
+
+			<div class="col-lg-12">
+			    <label for="titulo" class="col-lg-2">
+			        Necessidade:
+			    </label>
+			    <div class="col-lg-10">
+			        <input type="text" class="form-control" id="titulo" placeholder="Nome da Necessidade" size="200">
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="descricao" class="col-lg-2">
+			        Descrição:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id='descricao'
+						placeholder="Qual a necessidade (nível tático/gerencial) que você descreveria para a melhoria das atividades e ações de TIC no CNPq? "></textarea>
+			    </div>
+			</div>
+			<div class="col-lg-12">
+			    <label for="justificativa" class="col-lg-2">
+			        Justificativa:
+			    </label>
+			    <div class="col-lg-10">
+					<textarea class="form-control" rows="3" cols="30" id="justificativa"
+						placeholder="Finalize com uma breve justificativa que poderemos utilizar para priorizar a necessidade ao desenvolvimento de projetos  de TIC."></textarea>
+			    </div>
+			</div>
+		    <div class="col-lg-12 text-right " style="padding-top: 10px">
+				<a href="#pt02" class="btn btn-info " id='idSalvarPt01' role="button">Registrar</a>
+				<a href="#" class="btn btn-info " id='idIncluirMaisPt01' role="button">Incluir +</a>
+           	</div>
+
+			
+		</div>
+												</div>
+
+												</div>
+
+
+								</div>
+							</div>
+							
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDCOI_filhos" href="#collapseE10" style="color: white; text-decoration: none">
+						          	Projeto DCOI/COPAD E10
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE10" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px; ">			
+							
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E10
+<p style='padding-left: 30px; font-size: 1.5em'>
+Realizar reunião nacional de trabalho para obter subsídios para reformulação do programa PIBIC-EM.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é obter subsídios para aprimoramento do PIBIC-EM por meio de reunião com os representantes institucionais e coordenadores do PIBIC-EM.
+</p>
+
+
+
+
+	</div>
+</div>
+							
+
+									</div>
+								</div>
+							</div>
+							
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDCOI_filhos" href="#collapseE11" style="color: white; text-decoration: none">
+						          	Projeto DCOI/COPAD E11
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE11" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px; ">			
+							
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E11
+<p style='padding-left: 30px; font-size: 1.5em'>
+Avaliar os programas de bolsas PIBIC, PIBITI e PIBIC-Af.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é promover a avaliação dos programas PIBIC, PIBIC-Af e PIBITI. Com este objetivo contratamos a consultoria externa do Centro de Gestão e Estudos Estratégicos (CGEE). A partir dos resultados desta avaliação, planejamos aprimorar os instrumentos de gestão e acompanhamento dos programas.
+</p>
+
+
+
+
+	</div>
+</div>							
+
+									</div>
+								</div>
+							</div>
+
+						    <div class="panel panel-default">
+						      <div class="panel-heading " style="background-color: #2fa4e7; color: #fff">
+						        <h4 class="panel-title">
+						          <a data-toggle="collapse" data-parent="#accordionDCOI_filhos" href="#collapseE12" style="color: white; text-decoration: none">
+						          	Projeto DCOI/COPAD E12
+								  </a>
+						        </h4>
+						      </div>
+							    <div id="collapseE12" class="panel-collapse collapse ">
+									<div class="panel-body" style="padding-top: 10px; ">			
+							
+							
+<div class="col-lg-12">
+	<div class="alert alert-dismissable alert-info">
+
+Projeto DCOI/COPAD E12
+<p style='padding-left: 30px; font-size: 1.5em'>
+Propor nova sistemática de concessão e Gestão de bolsas de Mestrado e Doutorado por cotas, no país.
+</p>
+Objetivo/Justificativa:
+<p style='padding-left: 30px;'>
+
+O objetivo deste projeto é rever a atual sistemática e propor reestruturação na forma de concessão de bolsas com vistas a propiciar o aprimoramento do programa. A proposta a ser implementada deverá criar mecanismos de concessão que tornem o processo mais transparente e justo, propiciando a ampla concorrência por meio de chamada pública. 
+</p>
+
+	</div>
+</div>							
+
+
+									</div>
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+
+
+
+				
+				
+				
+				
+	<div class="col-lg-12 text-right " >
+		<a href="005_novosProjetos.html" class="btn btn-info " id='idIncluirMaisPt01' role="button">Próximos passos</a>
+	</div>
+			</div>
+
+
+
+
+			
+			</div>
+
+			</div>
+
+
+
+
+
+<script>
+$(document).ready(function(){
+    $("#panelDGTI").click(function(){
+    	$("#accordionOUVIDORIA, #accordionCOCOM, #accordionCOEST, #accordionAPL, #accordionAPA, #accordionDCOI, #accordionDGTI").hide(1000);
+        $("#accordionDGTI").show(1000);
+    });
+    $("#panelDCOI").click(function(){
+    	$("#accordionOUVIDORIA, #accordionCOCOM, #accordionCOEST, #accordionAPL, #accordionAPA, #accordionDCOI, #accordionDGTI").hide(1000);
+        $("#accordionDCOI").show(1000);
+    });
+    //panelOUVIDORIA, panelCOCOM, panelCOEST, panelAPL, panelAPA, panelDCOI, panelDGTI
+    
+    //#accordionOUVIDORIA, #accordionCOCOM, #accordionCOEST, #accordionAPL, #accordionAPA, #accordionDCOI, #accordionDGTI
+    
+});
+</script>
+</body>
+</html>

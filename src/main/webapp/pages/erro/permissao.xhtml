@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="../templates/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+	
+	<ui:define name="bread">
+		<p:breadCrumb>
+			<p:menuitem value="Home" />
+			<p:menuitem value="Erro" />
+		</p:breadCrumb>
+	</ui:define>
+	
+	<ui:define name="content">
+
+		<div align="center">
+			<img src="#{facesContext.externalContext.requestContextPath}/img/alert.png" />
+			<h4 style="color: red">
+				Você não tem permissão pra acessar esta página. Contate o administrador do sistema.
+			</h4>
+		</div>
+	</ui:define>
+</ui:composition>
