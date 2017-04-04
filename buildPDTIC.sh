@@ -20,7 +20,7 @@ fi
 
 
 #HOSTNAME="HOSTNAME"
-DBNAME="gog"
+DBNAME="pdtic"
 DBUSERNAME="clelson"
 DBPASSWORD="csr1919"
 DBSCHEMA="public"
@@ -71,8 +71,8 @@ cat /opt/GOG/GOG/src/main/resources/META-INF/persistence.xml
 
 
 
-echo "GOG - Monta a build do GOG utilizando o Maven"
-cd /opt/GOG/GOG
+echo "PDTIC -IGOG - Monta a build do Levantamento utilizando o Maven"
+cd /opt/_desenv/levantamento
 mvn package
 
 echo "Vai iniciar o Jboss ..."
@@ -81,13 +81,13 @@ echo "Vai iniciar o Jboss ..."
 sleep 25
 
 echo "Vai realizar o deploy ..."
-/opt/jboss-as-7.1.1.Final/bin/jboss-cli.sh --connect --command="deploy /opt/GOG/GOG/target/GOG.war --force"
+/opt/jboss-as-7.1.1.Final/bin/jboss-cli.sh --connect --command="deploy /opt/GOG/GOG/target/PDTIC.war --force"
 echo "Jboss iniciado com o depĺoy realizado"
 
 echo "...Agora vamos carregar os dados do sistema..."
 sh carregaDados.sh 
 
-echo -e "\n\n\nPRONTO! O GOG está funcionando! Use: http://localhost:8080/GOG"
+echo -e "\n\n\nPRONTO! O GOG está funcionando! Use: http://localhost:8080/pdtic"
 
 while :
 do

@@ -1,0 +1,13 @@
+regras do levantamento
+
+- se preencher um dos campos Necessidade ou Descrição ou Justificativa tem que informar os outros
+- tamanho dos campos (200, 500, 500)
+
+- título da tela Outras Necessidades
+
+- Comentários Finais
+(2000 caracteres)
+
+
+- projetos específicos
+Projeto DGTI/CGRH E1 => corrigir => Projeto DGTI/CGERH E1 
