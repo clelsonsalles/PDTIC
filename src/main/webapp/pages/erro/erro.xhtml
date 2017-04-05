@@ -1,47 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">  
-<html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:h="http://java.sun.com/jsf/html"
-      xmlns:f="http://java.sun.com/jsf/core"  
-      xmlns:p="http://primefaces.org/ui"
-      xmlns:ui="http://java.sun.com/jsf/facelets">
-    <h:head>  
-        <h:outputStylesheet name="estilo.css" library="css" />
-        <h:outputStylesheet name="estiloGoogle.css" library="css" />
-    </h:head>
-    <!--Shintaku, podemos melhorar essa tela de carregamento!!-->
-    <p:ajaxStatus onstart="statusDialog.show();" onsuccess="statusDialog.hide();"/>  
-    <p:dialog modal="true" widgetVar="statusDialog" header="Logando"   
-              draggable="false" closable="false">  
-        <p:graphicImage value="/img/carregando.gif" />  
-    </p:dialog>
-    <h:body>
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition template="./templates/template.xhtml"
+	xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	
+	<ui:define name="conteudo">
+        <div id="idPanelCadastroInicial" class="col-lg-12">
         <h:form>
             <div class="global">
-            	<div id="barra-brasil"></div>
-				
-                <div class="cabecalho">
-                    <a href="#{facesContext.externalContext.requestContextPath}/">
-                        <div class="logo">
-                            <img src="#{facesContext.externalContext.requestContextPath}/resources/img/logo.png"/>
-                        </div>
-                    </a>
-                </div>
-                
                 <div class="global2">
-                    <div class="menu">
-                        <div class="menuBar">
-                            <div class="menuBar">
-                                <h:form id="menubarForm">
-                                    <p:menubar>  
-                                        <p:spacer height="20px" width="100%"/>
-                                    </p:menubar>
-                                </h:form>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- conteédo Login -->
-
                     <div class="conteudo4">
                         <div class="conteudoLogin4Borda">
                             <div class="conteudoLogin4">
@@ -65,36 +36,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="rodape">
-		                <div class="geralRodape">
-		                    <div class="box1">
-		                        <h3>Sobre a Ouvidoria</h3>
-		                       	<p>A Ouvidoria do Ministério da Cultura é uma unidade diretamente ligada
-								ao Gabinete do dirigente máximo da instituição.</p>
-								
-								<p>Além de ser um canal de comunicação com o cidadão e instrumento de
-								participação e exercício de cidadania, a Ouvidoria é uma modalidade de
-								controle social, de defesa de direitos e também uma importante
-								ferramenta qualificadora da gestão pública.</p>
-								
-								<p>Participe! Estamos aqui para atendê-lo.</p>
-		                    </div>
-		                    <div class="box2">
-		                        <h3>Links Importantes</h3>
-		                        <ul>
-		                            <li><h:graphicImage library="img" name="setaHome.png" /> <a href="http://www.cultura.gov.br/perguntas-frequentes">Perguntas Frequentes</a></li><br/>
-		                            <li><h:graphicImage library="img" name="setaHome.png" /> <a href="http://pnc.culturadigital.br/">Plano Nacional de Cultura</a></li><br/>
-									<li><h:graphicImage library="img" name="setaHome.png" /> <a href="http://www.cultura.gov.br/snc">Sistema Nacional de Cultura</a></li><br/>
-									<li><h:graphicImage library="img" name="setaHome.png" /> <a href="http://novosalic.cultura.gov.br/">Salic WEB</a></li><br/>
-									<li><h:graphicImage library="img" name="setaHome.png" /> <a href="http://vale.cultura.gov.br">Vale Cultura</a></li>
-		                        </ul>
-		                    </div>
-		                </div>
-		            </div>
+
                 </div>
             </div>
         </h:form>
+        </div>
         
-        <script src="http://barra.brasil.gov.br/barra.js" type="text/javascript"></script>
-    </h:body>
-</html>
+	</ui:define>
+</ui:composition>
+
+        

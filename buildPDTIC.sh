@@ -25,10 +25,6 @@ DBUSERNAME="clelson"
 DBPASSWORD="csr1919"
 DBSCHEMA="public"
 
-
-
-
-
 echo "Verificando variáveis de sistema: "
 echo "   HOSTNAME: "$HOSTNAME
 echo "   DBNAME: "$DBNAME
@@ -60,18 +56,10 @@ while true; do
    fi
 done
 
-
-
-
 sed -i -r 's/<!-- <property name=\"hibernate.hbm2ddl.auto\" value=\"update\" \/>  -->/<property name=\"hibernate.hbm2ddl.auto\" value=\"update\" \/>/' /opt/GOG/GOG/src/main/resources/META-INF/persistence.xml 
 cat /opt/GOG/GOG/src/main/resources/META-INF/persistence.xml
 
-
-
-
-
-
-echo "PDTIC -IGOG - Monta a build do Levantamento utilizando o Maven"
+echo "PDTIC - Monta a build do Levantamento utilizando o Maven"
 cd /opt/_desenv/levantamento
 mvn package
 
@@ -81,13 +69,15 @@ echo "Vai iniciar o Jboss ..."
 sleep 25
 
 echo "Vai realizar o deploy ..."
-/opt/jboss-as-7.1.1.Final/bin/jboss-cli.sh --connect --command="deploy /opt/GOG/GOG/target/PDTIC.war --force"
+/opt/jboss-as-7.1.1.Final/bin/jboss-cli.sh --connect --command="deploy /opt/_desenv/levantamento/target/PDTIC.war --force"
 echo "Jboss iniciado com o depĺoy realizado"
 
 echo "...Agora vamos carregar os dados do sistema..."
 sh carregaDados.sh 
 
-echo -e "\n\n\nPRONTO! O GOG está funcionando! Use: http://localhost:8080/pdtic"
+echo -e "\n\n\nPRONTO! O Levantamento está funcionando! Use: http://localhost:8080/pdtic"
+echo "Para parar o jboss utilize:"
+echo "/opt/jboss-as-7.1.1.Final/bin/jboss-cli.sh --connect command=:shutdown"
 
 while :
 do

@@ -6,6 +6,6 @@
 		<title>Ouvidoria do MinC</title>
 	</head>
 <body>
-	<jsp:forward page="/login" />
+	<jsp:forward page="/index.html" />
 </body>
 </html>

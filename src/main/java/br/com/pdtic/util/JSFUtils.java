@@ -11,10 +11,7 @@ import javax.faces.context.Flash;
 
 import org.primefaces.context.RequestContext;
 
-/**
- * @author marcos.ribeiro
- * @author Samuel Correia Guimarães
- */
+
 public class JSFUtils {
 
     public static void updateComponent(String... componentes) {

@@ -46,16 +46,19 @@
                 Nome:
             </label>
             <div class="col-lg-8">
-                <h:inputText class="form-control" id="firstname" placeholder="Nome Completo" required="true"/>
-				<p:watermark for="firstname" value="Nome Completo" id="watermark" />
+                <h:inputText class="form-control" id="firstname" placeholder="Nome Completo" 
+                	required="true" requiredMessage="Nome obrigatório"/>
+				<p:watermark for="firstname" value="Nome Completo" id="watermarkNome" />
             </div>
         </div>        
         <div class="col-lg-12">
             <label for="emailaddress" class="col-lg-3">
-                Email:
+                E-mail:
             </label>
             <div class="col-lg-8">
-                <h:inputText class="form-control" id="emailaddress" placeholder="Exemplo: nome@cnpq.br" />
+                <h:inputText class="form-control" id="emailaddress" placeholder="Exemplo: nome@cnpq.br" 
+                	required="true" requiredMessage="E-mail obrigatório"/>
+				<p:watermark for="emailaddress" value="Exemplo: nome@cnpq.br" id="watermarkEmail" />
             </div>
         </div>
         <div class="col-lg-12">
@@ -63,7 +66,9 @@
                 Senha:
             </label>
             <div class="col-lg-8">
-                <h:inputText class="form-control" id="password" placeholder="Senha" />
+                <h:inputText class="form-control" id="password" placeholder="Senha" 
+                	required="true" requiredMessage="Senha obrigatória"/>
+				<p:watermark for="password" value="Senha" id="watermarkSenha" />
             </div>
         </div>
         <div class="col-lg-12">
@@ -148,11 +153,10 @@
         </div>
         <div class="row">
             <div class="col-lg-12 text-right ">
-											<button type="submit" style="border: none;"
-													class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left">
+											<button type="submit" style="border: none;" id='idBotaoAcessar'
+													class="btn btn-info disabled">
 													<span class="ui-button-text">ACESSAR</span>
 											</button>
-            <p:button ></p:button>
 		<a href="002_instrucoes.html" class="btn btn-info disabled" id='idBotaoCadastrar' role="button">Cadastrar</a>
             </div>
         </div>
@@ -170,6 +174,7 @@
 	    $(document).ready(function(){
 			$( '#idIniciarCadastro' ).click(function() {
 			  $( '#idBotaoCadastrar' ).toggleClass( "disabled" );
+			  $( '#idBotaoAcessar' ).toggleClass( "disabled" );
 			});
 			$( '#idBotaoCadastrarNovo' ).click(function() {
 			  $( '#idPanelCadastroInicial' ).slideToggle(1000);
